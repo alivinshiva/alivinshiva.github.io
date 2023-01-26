@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Website</title>
+    <title>My Blog</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-    <h1>Welcome to my website!</h1>
-    <p>This is a simple example of a webpage built with HTML and CSS.</p>
-    <img src="image.jpg" alt="An example image">
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-    </ul>
+    <header>
+      <h1>My Blog</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#latest">Latest Posts</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="latest">
+        <h2>Latest Posts</h2>
+        <article>
+          <h3>Post Title 1</h3>
+          <p>Post summary goes here...</p>
+          <a href="#">Read More</a>
+        </article>
+        <article>
+          <h3>Post Title 2</h3>
+          <p>Post summary goes here...</p>
+          <a href="#">Read More</a>
+        </article>
+      </section>
+      <section id="categories">
+        <h2>Categories</h2>
+        <ul>
+          <li><a href="#">Category 1</a></li>
+          <li><a href="#">Category 2</a></li>
+          <li><a href="#">Category 3</a></li>
+        </ul>
+      </section>
+      <section id="about">
+        <h2>About</h2>
+        <p>About the blog and the author goes here...</p>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2021 My Blog</p>
+    </footer>
   </body>
 </html>
