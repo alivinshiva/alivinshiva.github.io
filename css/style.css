@@ -1,44 +1,115 @@
-.body{
-    background-color: #ffebcd;
+* {
+    /* font-family:monospace; */
 }
-.logo{
-    height: 2%;
-} 
-.name{
-    background-color: #649af1;
-    width: 100px;
-    padding: 5px;
-    color: #ffebcd;
-    font-weight: bold;
-    border-radius: 20px;
-    border-style:double;
+
+body {
+    /* background-image: url(/Home.png);
+    background-repeat: no-repeat;
+    width: 2000px;
+    height: 2000px; */
+    background-color: black;
+    color: aliceblue;
 }
-.navbar {
-    background-color: #e22d2d;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-  }
-  .navbar-content {
-    display: flex;
-    justify-content: space-between;
-    background-color: red;
-    align-items: center;
-    /* padding: 10px 20px; */
-  }
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    border: double;
+
+.head_cont {
+    margin: 100px;
+    box-sizing: border-box;
+    /* border: 2px solid yellow; */
+    width: 85%;
+
+}
+
+.hello {
+    /* color: aliceblue; */
+    display: inline-block;
+    font-size: 75px;
+    line-height: 0px;
+}
+
+.iam {
+    color: #FEC006;
+    display: inline-block;
+    font-size: 75px;
+    line-height: 0px;
+}
+
+.feature {
+    /* color: aliceblue; */
+    /* margin-left: 100px; */
+    margin-top: 235px;
+    font-size: 20px;
+    display: inline-block;
+    border: 2px solid white;
     border-radius: 50px;
-    padding: 0;
-  }
-  .menu li {
-    margin: 0 10px;
-  }
-  
+    padding: 0px 90px;
+    width: 35%;
+    text-align: center;
+
+}
+
+.image {
+    /* border: 2px solid #FEC006; */
+    width: 35%;
+    margin-left: 65%;
+    /* margin-right: 250%; */
+    margin-top: -35%;
+    /* float: right; */
+}
+
+.sign {
+    /* border: 2px solid #FEC006; */
+    width: 20%;
+    margin-left: 75%;
+    margin-top: -10%;
+}
+
+/* NAVBAR...... */
+
+
+.navbar {
+    background-color: #fec00600;
+    /* background-color: #FEC006; */
+    border-radius: 80px;
+    /* border: 2px solid #FEC006; */
+
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+
+}
+
+.navbar li a {
+    color: #ffffff;
+    /* border: 3px solid #00ccff; */
+    border-radius: 15px;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.searchbox {
+    padding: 13px;
+    float: right;
+    margin-right: 50px;
+
+}
+
+.search {
+    border: 3px solid #FEC006;
+    border-radius: 50px;
+    padding-left: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #ffffff00;
+
+
+}
